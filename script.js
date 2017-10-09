@@ -12,7 +12,7 @@ l1= new Path2D();
 l2= new Path2D(); 
 l3= new Path2D(); 
 
-var R=1000/2,d,angle,pX,pY,qX,qY;
+var R=300/2,d,angle,pX,pY,qX,qY;
 
     //context.fillStyle = "#FFE2C4";
     //context.beginPath();
