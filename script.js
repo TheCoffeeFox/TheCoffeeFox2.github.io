@@ -3,7 +3,7 @@ var canvas = document.getElementById("sandbox"),
     square,l1,l2,l3;
 
 function drawWatch(){
-    context.clearRect(0, 0, 1000, 1000);
+    context.clearRect(0, 0, 500, 500);
     context.lineCap = "round";
     context.lineWidth = 4;
 
@@ -12,7 +12,7 @@ l1= new Path2D();
 l2= new Path2D(); 
 l3= new Path2D(); 
 
-var R=300/2,d,angle,pX,pY,qX,qY;
+var R=500/2,d,angle,pX,pY,qX,qY;
 
     //context.fillStyle = "#FFE2C4";
     //context.beginPath();
