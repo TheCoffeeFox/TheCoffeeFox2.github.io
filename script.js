@@ -46,7 +46,7 @@ for(d=0; d<12; ++d){
 }
     
     context.font = 'bolder  45px bolder';
-    context.fillText('1',  Math.cos((10/60)*(2*Math.PI))*0.85*R+R*0.97, 1.03*R-Math.sin((10/60)*(2*Math.PI))*0.85*R);
+    context.fillText('1',  Math.cos((10/60)*(2*Math.PI))*0.85*R+R*0.97, 1.05*R-Math.sin((10/60)*(2*Math.PI))*0.85*R);
     context.fillText('2',   Math.cos((5/60)*(2*Math.PI))*0.85*R+R*0.97, 1.03*R-Math.sin( (5/60)*(2*Math.PI))*0.85*R);
     context.fillText('3',   Math.cos((0/60)*(2*Math.PI))*0.85*R+R*0.97, 1.03*R-Math.sin( (0/60)*(2*Math.PI))*0.85*R);
     context.fillText('4',  Math.cos((55/60)*(2*Math.PI))*0.85*R+R*0.97, 1.03*R-Math.sin((55/60)*(2*Math.PI))*0.85*R);
@@ -56,8 +56,8 @@ for(d=0; d<12; ++d){
     context.fillText('8',  Math.cos((35/60)*(2*Math.PI))*0.85*R+R*0.97, 1.03*R-Math.sin((35/60)*(2*Math.PI))*0.85*R);
     context.fillText('9',  Math.cos((30/60)*(2*Math.PI))*0.85*R+R*0.97, 1.03*R-Math.sin((30/60)*(2*Math.PI))*0.85*R);
     context.fillText('10', Math.cos((25/60)*(2*Math.PI))*0.85*R+R*0.97, 1.03*R-Math.sin((25/60)*(2*Math.PI))*0.85*R);
-    context.fillText('11', Math.cos((20/60)*(2*Math.PI))*0.85*R+R*0.97, 1.03*R-Math.sin((20/60)*(2*Math.PI))*0.85*R);
-    context.fillText('12', Math.cos((15/60)*(2*Math.PI))*0.85*R+R*0.97, 1.03*R-Math.sin((15/60)*(2*Math.PI))*0.85*R);
+    context.fillText('11', Math.cos((20/60)*(2*Math.PI))*0.85*R+R*0.97, 1.05*R-Math.sin((20/60)*(2*Math.PI))*0.85*R);
+    context.fillText('12', Math.cos((15/60)*(2*Math.PI))*0.85*R+R*0.97, 1.05*R-Math.sin((15/60)*(2*Math.PI))*0.85*R);
     
         
 var date = new Date(), hours, minutes, seconds;
